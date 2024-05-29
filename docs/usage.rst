@@ -138,7 +138,7 @@ those coming from 10X experiments, barcodes sometimes end up at a specific
 location in each read. It can also be that the barcode is in the header, but
 only part of this barcode is used, this happens when dual indexing is used for
 example. To deal with these cases, both the ``guess`` as well as the ``demux``
-subcommand can be instructed to look voor the barcode in the read with the
+subcommand can be instructed to look for the barcode in the read with the
 ``-r`` option and a selection can be made by providing a start- and end
 coordinate via the ``-s`` and ``-e`` options. For example, if we want to search
 for barcodes in the first six nucleotides of a read, we use the following

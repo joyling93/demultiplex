@@ -10,7 +10,7 @@ from shared import FakeOpen, md5_check, make_fake_file
 
 
 class TestCLI(object):
-    def setup(self):
+    def setup_method(self):
         fake_open = FakeOpen()
         self._handles = fake_open.handles
         dmp = import_module('demultiplex.demultiplex')
